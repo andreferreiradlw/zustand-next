@@ -22,7 +22,7 @@ export interface ProductSlice {
 export const createProductSlice: StateCreator<ProductSlice> = (set) => ({
     products: [],
     fetchProducts: async () => {
-        const res = await fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=20')
+        const res = await fetch('https://eombkdd57znkkyl.m.pipedream.net/')
         set({ products: await res.json() })
     },
 })

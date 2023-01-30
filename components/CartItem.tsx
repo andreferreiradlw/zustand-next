@@ -14,7 +14,7 @@ export const CartItem = (product: Product) => {
                 </svg>
             </button>
             <div className="w-20 relative">
-                <Image src={product?.images[0]} alt={product?.title} layout='fill' className='rounded-tl-md rounded-bl-md shadow-lg' />
+                {/* <Image src={product?.images[0]} alt={product?.title} layout='fill' className='rounded-tl-md rounded-bl-md shadow-lg' /> */}
             </div>
             <div className="details py-2 px-3 flex-grow">
                 <h3 className="font-medium mb-1 text-gray-300">{product?.title}</h3>
